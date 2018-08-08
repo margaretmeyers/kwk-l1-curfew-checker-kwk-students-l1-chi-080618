@@ -22,7 +22,6 @@ def curfew_checker(time)
 end
 
 def complex_curfew_checker(time)
-  time = gets.chomp
   curfew = 11
   if time == 11
     puts "It's your curfew, go home!"
@@ -30,13 +29,22 @@ def complex_curfew_checker(time)
   elsif time > 11
     puts "It's past your curfew, go home!"
     
-  else curfew - time == alert
-    puts "You have #{alert} until curfew"
+  else 
+    puts "It is not your curfew yet!"
+  end 
 end
 
-def deluxe_curfew_checker(time)
-  # code goes here
+def deluxe_curfew_checker(time, curfew = 11)
+  if time == 11
+    puts "It's your curfew, go home!"
+  elsif time > 11
+    puts "It's past your curfew, go home!"
+  else curfew - time == alert
+    puts "You have #{alert} until curfew"
+  end 
 end
+
+deluxe_curfew_checker(9)
 
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
