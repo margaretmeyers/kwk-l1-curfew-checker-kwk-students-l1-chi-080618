@@ -22,14 +22,16 @@ def curfew_checker(time)
 end
 
 def complex_curfew_checker(time)
-  curfew == 11
+  time = gets.chomp
+  curfew = 11
   if time == 11
     puts "It's your curfew, go home!"
  
   elsif time > 11
     puts "It's past your curfew, go home!"
     
-  else time 
+  else curfew - time == alert
+    puts "You have #{alert} until curfew"
 end
 
 def deluxe_curfew_checker(time)
