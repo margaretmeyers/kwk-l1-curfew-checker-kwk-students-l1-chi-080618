@@ -37,6 +37,6 @@ end
 
 deluxe_curfew_checker(9)
 
-def platinum_curfew_checker(current_time, curfew_time)
+def platinum_curfew_checker(current_time, curfew_time = gets.chomp)
   
 end
