@@ -3,7 +3,7 @@ def simple_curfew_checker(time)
     puts "It's your curfew, go home"
   end  
 end
-simple curfew checker(11)
+simple_curfew_checker(11)
 
 def curfew_checker(time)
   if time == 11 
