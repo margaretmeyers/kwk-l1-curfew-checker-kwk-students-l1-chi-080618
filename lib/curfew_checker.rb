@@ -16,7 +16,6 @@ def curfew_checker(time)
 end
 
 def complex_curfew_checker(time)
-  curfew = 11
   if time == 11
     puts "It's your curfew, go home!"
   elsif time > 11
