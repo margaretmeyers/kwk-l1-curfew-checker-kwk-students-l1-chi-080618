@@ -38,13 +38,6 @@ end
 
 deluxe_curfew_checker(9)
 
-if time == 11
-    puts "It's your curfew, go home!"
-  elsif time > 11
-    puts "It's past your curfew, go home!"
-  else 
-    puts "You have #{curfew - time} until curfew"
-  end 
 def platinum_curfew_checker(current_time, curfew_time)
   
 end
