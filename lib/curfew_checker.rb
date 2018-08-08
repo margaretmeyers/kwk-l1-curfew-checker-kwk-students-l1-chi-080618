@@ -8,16 +8,16 @@ end
 
 simple curfew checker(11)
 
-# def curfew_checker(time)
-#   if time == 11, 
-#     puts "It's your curfew, go home!"
+def curfew_checker(time)
+  if time == 11, 
+    puts "It's your curfew, go home!"
   
-#   elsif time > 11 
-#     puts "It's past your curfew, go home!"
+  elsif time > 11 
+    puts "It's past your curfew, go home!"
   
-#   else
-#     puts "It is not your curfew!"
-#   end  
+  else
+    puts "It is not your curfew!"
+  end  
 
 end
 
